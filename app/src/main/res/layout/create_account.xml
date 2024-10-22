@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/welcomeImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/welcome"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="42dp"
+        android:contentDescription="@string/welcomeImage"
+        />
+
+    <TextView
+        android:id="@+id/welcomeHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcomeHeading"
+        android:textSize="24sp"
+
+        app:layout_constraintTop_toBottomOf="@+id/welcomeImage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        />
+
+    <TextView
+        android:id="@+id/welcomeSubheading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcomeSubheading"
+        android:textSize="14sp"
+
+        app:layout_constraintTop_toBottomOf="@+id/welcomeHeading"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <EditText
+        android:id="@+id/emailInput"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="@string/emailPlaceholder2"
+
+        app:layout_constraintTop_toBottomOf="@id/welcomeSubheading"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:layout_marginTop="55dp"
+        android:background="#C4C4C4"
+        android:paddingHorizontal="22dp"
+        />
+
+    <EditText
+        android:id="@+id/passwordInput"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="@string/passwordPlaceholder2"
+
+        app:layout_constraintTop_toBottomOf="@id/emailInput"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:layout_marginTop="25dp"
+        android:background="#C4C4C4"
+        android:paddingHorizontal="22dp"
+        />
+
+    <CheckBox
+        android:id="@+id/rememberMeCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rememberMeCheckboxText"
+        android:checked="false"
+
+        app:layout_constraintTop_toBottomOf="@id/passwordInput"
+        app:layout_constraintStart_toStartOf="@id/passwordInput"
+        android:layout_marginTop="16dp"
+        />
+
+    <TextView
+        android:id="@+id/forgetPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/forgetPasswordText"
+
+        app:layout_constraintTop_toBottomOf="@id/passwordInput"
+        app:layout_constraintEnd_toEndOf="@id/passwordInput"
+        android:layout_marginTop="21dp"
+        android:textColor="#6C63FF"
+        />
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="@string/nextButtonText"
+        android:background="#6C63FF"
+        android:textColor="@color/white"
+
+        app:layout_constraintTop_toBottomOf="@id/forgetPassword"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:layout_marginTop="55dp"
+
+        />
+
+    <TextView
+        android:id="@+id/newMember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/newMemberText"
+
+        app:layout_constraintTop_toBottomOf="@id/nextButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/nextButton"
+
+        />
+
+    <TextView
+        android:id="@+id/registerNow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/registerNowText"
+
+        app:layout_constraintTop_toBottomOf="@id/nextButton"
+        app:layout_constraintStart_toEndOf="@id/newMember"
+
+        android:textColor="#6C63FF"
+
+        />
+
+</android.support.constraint.ConstraintLayout>

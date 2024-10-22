@@ -4,11 +4,21 @@
     <string name="getStartedHeading">Get Started</string>
     <string name="getStartedSubheading">by creating a new account</string>
     <string name="fullNamePlaceholder">Full name</string>
-    <string name="emailPlaceholder">Valid email</string>
+    <string name="emailPlaceholder1">Valid email</string>
     <string name="numberPlaceholder">Phone number</string>
-    <string name="passwordPlaceholder">Strong password</string>
+    <string name="passwordPlaceholder1">Strong password</string>
     <string name="checkboxText">By checking the box you agree to our Terms and Conditions.</string>
     <string name="NextButtonText">Next</string>
     <string name="bottomText">Already a member? Log in</string>
+    <string name="welcomeImage">welcome image</string>
+    <string name="welcomeHeading">Welcome back!</string>
+    <string name="welcomeSubheading">sign in to access your account</string>
+    <string name="emailPlaceholder2">Enter your email</string>
+    <string name="passwordPlaceholder2">Password</string>
+    <string name="rememberMeCheckboxText">Remember me</string>
+    <string name="forgetPasswordText">Forget password</string>
+    <string name="nextButtonText">Next</string>
+    <string name="newMemberText">New member?</string>
+    <string name="registerNowText">Register Now</string>
 
 </resources>
