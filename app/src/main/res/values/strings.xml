@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">createAccount2</string>
+    <string name="getStartedImage">getStarted</string>
+    <string name="getStartedHeading">Get Started</string>
+    <string name="getStartedSubheading">by creating a new account</string>
+    <string name="fullNamePlaceholder">Full name</string>
+    <string name="emailPlaceholder">Valid email</string>
+    <string name="numberPlaceholder">Phone number</string>
+    <string name="passwordPlaceholder">Strong password</string>
+    <string name="checkboxText">By checking the box you agree to our Terms and Conditions.</string>
+    <string name="NextButtonText">Next</string>
+    <string name="bottomText">Already a member? Log in</string>
+
+</resources>
